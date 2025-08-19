@@ -1,6 +1,6 @@
 'use strict'
 
-import employees from './employees.json' with { type: 'json' }
+import employees from '../employees.json' with { type: 'json' }
 
 function showDatas(employee) {
     const cards = document.getElementById('cards')
